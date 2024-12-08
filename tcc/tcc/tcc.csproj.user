@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="FormAttA1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAttC1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAttS1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormInseC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormListC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormListS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormRemovC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAttC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormInseS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormRemovS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAttS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormInseA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormRemovA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAttA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormCursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormListA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormSalas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
