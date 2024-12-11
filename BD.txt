@@ -1,0 +1,34 @@
+
+CREATE DATABASE IF NOT EXISTS tcc;
+USE tcc;
+
+-- Tabela para Cursos
+CREATE TABLE Curso (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nomeCurso VARCHAR(100) NOT NULL,
+    horarioCurso VARCHAR(50) NOT NULL
+);
+
+
+-- Tabela para Salas
+CREATE TABLE Sala (
+
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nomeSala VARCHAR(100) NOT NULL,
+    numeroSala VARCHAR(50) NOT NULL,
+    idCurso INT NOT NULL,
+    FOREIGN KEY (idCurso) REFERENCES Curso(id) ON DELETE CASCADE
+
+);
+
+-- Tabela para Alunos
+CREATE TABLE Aluno (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nomeAluno VARCHAR(100) NOT NULL,
+    numeroAluno INT NOT NULL UNIQUE,
+    idCurso INT NOT NULL,
+    idSala INT NOT NULL,
+    FOREIGN KEY (idCurso) REFERENCES Curso(id) ON DELETE CASCADE,
+	FOREIGN KEY (idSala) REFERENCES Sala(id) ON DELETE CASCADE
+);
+
